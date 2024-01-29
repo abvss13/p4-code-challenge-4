@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home {
+  /* background: url("./images/16-unique-pizzas-to-choose.jpg")fixed; */
+  margin: auto; /* Centers the element horizontally */
+}
+
+
+.buts{
+  padding: 10px 20px;
+  display: flex;
+ justify-content: space-between; 
+}
+body {
+  background: url("./images/16-unique-pizzas-to-choose.jpg") fixed no-repeat;
+  background-size: cover; /* Ensures the entire image is visible without zooming */
+  background-position: center; /* Centers the image */
+  margin: 0; /* Removes default body margin */
+}
+
+.pizzas{
+  background: url("./images/burrata-tomato-mozzarella.jpg") fixed no-repeat;
+  background-size: cover; /* Ensures the entire image is visible without zooming */
+  background-position: center; 
+  margin: 0; /* Removes default body margin */
+}
+
+.restaurants{
+  background: url("./images/charming-and-sophisticated.jpg") fixed no-repeat;
+  background-size: cover; /* Ensures the entire image is visible without zooming */
+  background-position: center; 
+  margin: 0; /* Removes default body margin */
+  color: rgb(241, 240, 245);
+}
+
